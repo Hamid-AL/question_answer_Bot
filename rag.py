@@ -1,11 +1,8 @@
 import streamlit as st
 import json
 import numpy as np
-import openai
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
-from langchain.chains import RetrievalQA
-from langchain.llms import OpenAI
 from langchain.docstore.document import Document
 
 key='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'

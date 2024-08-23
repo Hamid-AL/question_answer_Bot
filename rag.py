@@ -1,9 +1,9 @@
 import streamlit as st
 import json
 import numpy as np
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.docstore.document import Document
+from langchain_community.embeddings.openai import OpenAIEmbeddings #import   # Updated to langchain_openai
+from langchain_community.vectorstores import FAISS  # Updated to langchain_community
+from langchain_community.docstore.document import Document
 
 key='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'
 

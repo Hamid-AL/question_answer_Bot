@@ -75,7 +75,7 @@ def main():
     st.header('Restaurant Recommendation Bot 🍽️')
     user_question = st.chat_input("Ask a question:")
 
-    data=read_json('/combined_file.json')
+    data=read_json('combined_file.json')
     #st.write(data)
     docs= json_to_doc(data)
     st.session_state.vectorstore = get_vectorstore(docs)

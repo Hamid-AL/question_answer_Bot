@@ -5,7 +5,7 @@ from langchain_community.embeddings.openai import OpenAIEmbeddings #import   # U
 from langchain_community.vectorstores import FAISS  # Updated to langchain_community
 from langchain_community.docstore.document import Document
 
-key='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'
+key=st.secrets['openia_key']
 
 # load file
 # Load your JSON file

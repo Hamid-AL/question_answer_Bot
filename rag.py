@@ -69,7 +69,7 @@ def main():
     user_question = st.chat_input("Ask a question:")
 
     if "vectorstore" not in st.session_state:
-        data = read_json('D:/upwork/LLMs/json/combined_file.json')
+        data = read_json('combined_file.json')
         docs = json_to_doc(data)
         st.session_state.vectorstore = get_vectorstore(docs)
     

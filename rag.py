@@ -4,7 +4,7 @@ from langchain_community.embeddings.openai import OpenAIEmbeddings  # Updated to
 from langchain_community.vectorstores import FAISS  # Updated to langchain_community
 from langchain_community.docstore.document import Document
 
-key = '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'
+key = 'api_key'
 
 
 

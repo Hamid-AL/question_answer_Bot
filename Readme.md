@@ -1,4 +1,4 @@
-# Restaurant Recommendation Bot
+# Restaurant Recommendation Bot (FreeLance Project)
 
 ## Overview
 

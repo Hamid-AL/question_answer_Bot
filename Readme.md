@@ -1,14 +1,44 @@
 # Restaurant Recommendation Bot (FreeLance Project)
 
+![Restaurant Recommendation Bot](restaurantbot.png)
+
 ## Overview
 
-The Restaurant Recommendation Bot is a Streamlit-based web application designed to help users find restaurant recommendations based on their queries. Utilizing advanced natural language processing techniques and a vector store powered by FAISS, the bot provides personalized and contextually relevant suggestions. This application leverages OpenAI's embedding models to analyze user input and match it with a pre-built knowledge base of restaurant-related data.
+The Restaurant Recommendation Bot is a Streamlit-based web application designed to help users find restaurant recommendations based on their queries.
+
+Utilizing advanced natural language processing techniques and a vector store powered by FAISS, the bot provides personalized and contextually relevant suggestions. The application leverages OpenAI embedding models to analyze user input and match it with a pre-built knowledge base of restaurant-related data.
+
+---
 
 ## Features
 
-- **Interactive Chat Interface**: Users can interact with the bot through a chat interface to ask questions and get restaurant recommendations.
-- **Efficient Search**: Uses FAISS with GPU support for fast and efficient similarity search within the vector store.
-- **Persistent Vector Store**: The vector store is created once and reused across sessions to ensure quick response times and efficient resource usage.
+* **Interactive Chat Interface**
+  Users can interact with the bot through a chat interface to ask questions and receive restaurant recommendations.
+
+* **Efficient Search**
+  Uses FAISS with GPU support for fast and efficient similarity search within the vector store.
+
+* **Persistent Vector Store**
+  The vector store is created once and reused across sessions to ensure quick response times and efficient resource usage.
+
+---
+
+## Technologies Used
+
+* Python
+* Streamlit
+* FAISS (GPU Support)
+* OpenAI Embeddings
+* LangChain
+
+---
+
+## Screenshot
+
+The image below shows the Restaurant Recommendation Bot interface:
+
+![Bot Screenshot](restaurantbot.png)
+
 
 ## Setup
 

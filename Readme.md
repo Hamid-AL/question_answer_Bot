@@ -1,6 +1,6 @@
 # Restaurant Recommendation Bot (FreeLance Project)
 
-![Restaurant Recommendation Bot](restaurantbot.png)
+![Restaurant Recommendation Bot](restaurantBotUI.png)
 
 ## Overview
 
@@ -37,7 +37,7 @@ Utilizing advanced natural language processing techniques and a vector store pow
 
 The image below shows the Restaurant Recommendation Bot interface:
 
-![Bot Screenshot](restaurantbot.png)
+![Bot Screenshot](restaurantBotUI.png)
 
 
 ## Setup
